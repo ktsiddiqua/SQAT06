@@ -2,7 +2,7 @@
 
 Assignment 1 ::
 
-To Test Web Application  'Figure 1' Registration page functionality
+Automation of Web Application  'Figure 1' Registration page functionality using Open source tools
 URL:'https://app.figure1.com/account/register'
 
 Prerequisites for Test Automation::
@@ -98,12 +98,11 @@ Prerequisites for Test Automation::
         6) Use command line, run  'cd sqat06' to go to SQAT06 folder
         Check the directory folder to ensure all files are copied from origin repository- command as 'dir'
         
-        7) Using command line, run 'mpn install' to install required packages from package.json file       
+        7) Use command line, run 'npm install'-- to install required packages       
         
         8) Open 'SQAT06' folder from visual studio Code editor
         
-        9) Select and Edit web_basic.js and readme.md files        
-       
+        9) Select, Edit, and Save web_basic.js and readme.md files      
         10) Use command line, run 'node web_basic.js' to run test cases for 'Figure 1' registration page 
 
 
