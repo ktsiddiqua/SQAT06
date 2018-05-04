@@ -13,6 +13,7 @@ Prerequisites for Test Automation::
         > A GitHub.com account   
         > Git on the command line 
         > Code/Text Editor 
+
      
     (1) Node.js ::
         Getting Node Environment
@@ -25,7 +26,8 @@ Prerequisites for Test Automation::
     	
         Note: Node.js=JavaScript Library + runtime environment 
 
-    (2) Selenium-standalone NPM package ::
+
+    (2) Selenium-standalone npm package ::
         Getting Selenium Environment
         1) Go to the official site of npmjs
             URL: 'https://www.npmjs.com/'
@@ -35,27 +37,28 @@ Prerequisites for Test Automation::
             1) npm install selenium-standalone -g 
             2) selenium-standalone install
             3) selenium-standalone start
-        4) Start Selenium whenever (windows,os) machine starts!
+        4) Start selenium-standalone whenever (windows,os) machine starts!
     	Note:
         -Package will automatically sets up the selenium standalone server and all required drivers such as chrome driver, ie driver, firefox driver, and etc.
         -It will also install a selenium-standalone command line that will be able to install selenium server and start chrome, firefox or ie for the tests.
     
-    
+
     (3) NPM (Node Package Manager) ::
         1) Use command prompt, run 'npm -v' to test npm version
         2) To install any package always run command 'npm install'
-        
         Note: When install node.js, npm is automatically installed
     
+
     (4) Download Java ::
         URL: 'https://www.java.com/en/download/windows-64bit.jsp'
-        
         Note: Ensuring the minimum required of Java version for selenium-standalone server
+
 
     (5) Visual Studio Code Editor
         Download and install VSCodeSetup-x64-1.21.1 file
         URL: 'https://code.visualstudio.com/'
             
+
     (6) GitHub ::	
         Create an account on  GitHub.com login as
             URL:  'https://github.com/ktsiddiqua'
@@ -63,6 +66,7 @@ Prerequisites for Test Automation::
             Email : ktsiddiqua@gmail.com
 
         Note: GitHub is a code hosting platform for version control and collaboration. It lets one and others work together on projects from anywhere.
+
 
     (7) Git ::
         Setting up Git
@@ -102,7 +106,8 @@ Prerequisites for Test Automation::
        
         10) Use command line, run 'node web_basic.js' to run test cases for 'Figure 1' registration page 
 
-    (9) Push code to GitHub repository(assignment 1) Use command line, 
+
+    (9) Push code to GitHub repository, use command line,
         
         1) 'git remote -v' command to show a list of existing remotes as - 
             origin  https://github.com/IzzatBamieh/SQAT06.git (fetch)
