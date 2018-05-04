@@ -18,13 +18,10 @@ Given('I go to duck duck go', function(callback) {
 
 When('I search for WebdriverIO', function(callback) {
   browser 
-   .deleteCookie() 
-   .setValue('#search_form_input_homepage','WebdriverIO')
+    .setValue('#search_form_input_homepage','WebdriverIO')
     .catch(function(error){
       callback(error);
     })
-    // badge-link__wrap .badge-link__btn-group
-    //js-badge-link-dismiss//badge-link__close
     .waitForVisible('.badge-link__close', 5000)
     .click('.badge-link__close')
     .click('#search_button_homepage').then(function(){
