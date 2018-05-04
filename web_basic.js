@@ -33,8 +33,7 @@ client
     .catch(function(err){
         console.log(err)
     })
-    .click('.register-page__submit-button')
-     
+    .click('.register-page__submit-button')     
     .catch(function(err){
         console.log(err)
     })
