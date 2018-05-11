@@ -2,19 +2,26 @@
 
 Assignment 1 ::
 
-Automation of Web Application  'Figure 1' Registration page functionality using Open source tools
+Test Automation of Web Application 'Figure 1' Registration page functionality using Open source tools 
 URL:'https://app.figure1.com/account/register'
 
 Prerequisites for Test Automation::
-    > Internet Access and Latest Chrome Browser
-    > Node.js
-    > Senium-standalone server as NPM package
-    > Java
-    > A GitHub.com account   
-    > Git on the command line 
-    > Code/Text Editor 
-
+    
+    - Internet Access and Latest Chrome Browser
+    
+    - Node.js
+    
+    - Senium-standalone server as NPM package
+    
+    - Java
+    
+    - A GitHub.com account   
+    
+    - Git on the command line 
+    
+    - Code/Text Editor 
      
+
 (1) Node.js ::
     Getting Node Environment
         1) Go to the official site of Node.js
@@ -39,8 +46,10 @@ Prerequisites for Test Automation::
             3) selenium-standalone start
         4) Start selenium-standalone whenever (windows,os) machine starts!
     Note:
-        -Package will automatically sets up the selenium standalone server and all required drivers such as chrome driver, ie driver, firefox driver, and etc.
-        -It will also install a selenium-standalone command line that will be able to install selenium server and start chrome, firefox or ie for the tests.
+        -Package will automatically sets up the selenium standalone server and 
+        all required drivers such as chrome driver, ie driver, firefox driver, and etc.
+        -It will also install a selenium-standalone command line that will be able 
+        to install selenium server and start chrome, firefox or ie for the tests
     
 
 (3) NPM (Node Package Manager) ::
@@ -65,7 +74,7 @@ Prerequisites for Test Automation::
         Username : ktsiddiqua
         Email : ktsiddiqua@gmail.com
 
-    Note: GitHub is a code hosting platform for version control and collaboration. It lets      one and others work together on projects from anywhere.
+    Note: GitHub is a code hosting platform for version control and collaboration. It lets      one and others work together on projects from anywhere
 
 
 (7) Git ::
@@ -126,6 +135,8 @@ Prerequisites for Test Automation::
 
         6) 'git push kts-sqat06 master'
 
+
+-------------------------------------Assignment 2 -------------------------------------
 
 Assignment 2 ::
 
