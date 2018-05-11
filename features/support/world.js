@@ -1,18 +1,19 @@
-// const { setWorldConstructor, setDefaultTimeout } = require('cucumber')
+const { setWorldConstructor, setDefaultTimeout } = require('cucumber')
 
-// setDefaultTimeout(60 * 1000);
-// const webdriverio = require('webdriverio');
-// const options = { desiredCapabilities: { browserName: 'firefox' } };
 
-// class CustomWorld {
-//   constructor({attach, parameters}) {
-//     this.browser = webdriverio.remote(options);
-//     this.attach = attach;
-//   }
+setDefaultTimeout(60 * 1000);
+const webdriverio = require('webdriverio');
+const options = { desiredCapabilities: { browserName: 'chrome' } };
 
-//   goToWebsite() {
-//     return this.browser.init().url('https://duckduckgo.com/');
-//   }
-// }
+class CustomWorld {
+  constructor({attach, parameters}) {
+    this.browser = webdriverio.remote(options);
+    this.attach = attach;
+  }
+  
+  goToWebsite() {
+    return this.browser.init().url('https://app.figure1.com/account/register');
+  }
+}
 
-// setWorldConstructor(CustomWorld)
+setWorldConstructor(CustomWorld)

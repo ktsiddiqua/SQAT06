@@ -129,7 +129,8 @@ Prerequisites for Test Automation::
 
 Assignment 2 ::
 
-    Testing a user registration scenario for  Figure 1 sign up web page on the web browser and to assert/ensure a expected behavior that 'I should see home logo  after the successful registration'
+    Testing a user registration scenario for  Figure 1 sign up web page on the web browser and 
+    to assert/ensure a expected behavior that 'I should see home logo  after the successful registration'
 
 To work with this scenario I use ::
 
