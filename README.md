@@ -171,7 +171,7 @@ To work with this scenario I use ::
 Cucumber-js :: (cucumber for javaScript)
    
     Cucumber is a testing framwork, helps with writing tests (scenario as acceptance criteria) in BDD (Behavior Driven Development) 
-    using Gherkin syntax (Feature, Scenario, Given, When, Then, so on) and then writing tests according to it. 
+    using Gherkin syntax (Feature, Scenario, Given, When, Then, so on) and then writing tests code according to it. 
     For cucumber required is 'features' directory - it includes 4 types of files-
     
     1) a Feature file : 'sign_scenario.feature' extention File
