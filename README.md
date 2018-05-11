@@ -54,7 +54,7 @@ Prerequisites for Test Automation::
     Note: Ensuring the minimum required of Java version for selenium-standalone server
 
 
-(5) Visual Studio Code Editor
+(5) Visual Studio (VS) Code Editor
         Download and install VSCodeSetup-x64-1.21.1 file
         URL: 'https://code.visualstudio.com/'
             
@@ -127,9 +127,78 @@ Prerequisites for Test Automation::
         6) 'git push kts-sqat06 master'
 
 
+Assignment 2 ::
 
+    Testing a user registration scenario for  Figure 1 sign up web page on the web browser and to assert/ensure a expected behavior that 'I should see home logo  after the successful registration'
 
+To work with this scenario I use ::
 
+Cucumber-js :: (cucumber for javaScript)
+   
+    Cucumber is a testing framwork, helps with writing tests (scenario as acceptance criteria) in BDD (Behavior Driven Development) using Gherkin syntax (Feature, Scenario, Given, When, Then, so on) and then writing tests according to it. For cucumber required is 'features' directory - it includes 4 types of files-
+    
+    1) a Feature file : 'sign_scenario.feature' extention File
+         Cucumber reads the code written in plain English text (Gherkin language) in the feature file
+    
+    2) a Steps defination File : 'signup_steps.js' 
+        It finds the exact match of feature file for each steps in step file(a code file).
+    
+    3) a World File : 'world.js'
+        World is an isolated context for each scenario, exposed to the hooks.js and steps.js as 'this'.
+    
+    4) a Hook File : 'hooks.js'
+        Hooks are used for setup and teardown the environment before and after each scenario.
+    Note: 
+    cucumber-js automatically looks in, and expects content to be inside a features/ directory, so we don’t actually have to configure anything, just use this structure.
 
+Chai :: 
+    BDD assertion framework for node.js and the browser that can be paired with Cucumber-js testing framework.
+    Assertion functions (chai.should()) are functions that make sure tests result as expected.
 
+WebdriverIO ::
+    Selenium bindings for NodeJS. 
 
+Following steps are required to run cucumber js and chai assertion framework :
+
+1) Use Command line, run 'selenium-standalone start' for a new start
+
+2) Use another Command line, go to 'SQAT06' folder and run 'npm install'. To install 'cucumber-js' and 'chai' from 'package.json' file mention as 'dependencies'
+
+3) Open VS Editor, under 'SQAT06' folder create 'features/signup_scenario.feature' file and write a scenario ' User Registration for Figure1 sign up page' using 'Given', 'When', 'Then'
+
+4)In VS Editor, create another 'features/support/signup_steps.js' file to write code exact match with feature file. Save and execute code step by step to meet the assertion criteria 'I should see home logo  after the successful registration'
+
+5) Use Command line, run '.\node_modules\.bin\cucumber-js'
+(when code run without error it passed otherwise failed/undefined)
+
+Output:
+        C:\Git\SQAT06>.\node_modules\.bin\cucumber-js
+        ...........
+
+        1 scenario (1 passed)
+        10 steps (10 passed)
+        0m07.319s
+
+6) Use Command line, run 'git status' to obtain a summary of which files have changes that are staged for the next commit.
+
+Output:
+        Untracked files:
+    (use "git add <file>..." to include in what will be committed)
+
+        .vscode/
+        features/signup_scenario.feature
+        features/support/signup_steps.js
+        index.js
+        node_modules/
+        test/
+
+7) Use Command line, run 'git add' to update the index using the current content found in the working tree, to prepare the content staged for the next commit
+
+8) Use Command line, run 'git commit -m "KTS Assignment 2"'
+
+9) Use Command line, run 'git push kts-sqat06 master' to send files onto Github remote repository
+
+10) In GitHub, go to 'ktsiddiqua/SQAT06
+forked from IzzatBamieh/SQAT06' and click on 'New pull request' to open a pull request. Once create a pull request, we don't need to open  another pull request then 'push' command will do the same.
+
+-------------------------------------End Assignment 2---------------------------------------
