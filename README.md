@@ -23,7 +23,9 @@ Prerequisites for Test Automation::
      
 
 (1) Node.js ::
+
     Getting Node Environment
+
         1) Go to the official site of Node.js
             URL: 'https://nodejs.org/en/'
         2) Choose  the required version (7.8.0) of Node
@@ -35,16 +37,22 @@ Prerequisites for Test Automation::
 
 
 (2) Selenium-standalone npm package ::
+
     Getting Selenium Environment
+
         1) Go to the official site of npmjs
             URL: 'https://www.npmjs.com/'
+
         2) Search for Selenium-standalone NPM package
             URL: 'https://www.npmjs.com/package/selenium-standalone'
+
         3)  Use command line to install and start module/package globally
             1) npm install selenium-standalone -g 
             2) selenium-standalone install
             3) selenium-standalone start
+
         4) Start selenium-standalone whenever (windows,os) machine starts!
+
     Note:
         -Package will automatically sets up the selenium standalone server and 
         all required drivers such as chrome driver, ie driver, firefox driver, and etc.
@@ -53,34 +61,48 @@ Prerequisites for Test Automation::
     
 
 (3) NPM (Node Package Manager) ::
+
         1) Use command prompt, run 'npm -v' to test npm version
+
         2) To install any package always run command 'npm install'
+
     Note: When install node.js, npm is automatically installed
     
 
 (4) Download Java ::
+
         URL: 'https://www.java.com/en/download/windows-64bit.jsp'
+
     Note: Ensuring the minimum required of Java version for selenium-standalone server
 
 
 (5) Visual Studio (VS) Code Editor
+
         Download and install VSCodeSetup-x64-1.21.1 file
+
         URL: 'https://code.visualstudio.com/'
             
 
 (6) GitHub ::	
+
     Create an account on  GitHub.com login as
+
         URL:  'https://github.com/ktsiddiqua'
         Username : ktsiddiqua
         Email : ktsiddiqua@gmail.com
 
-    Note: GitHub is a code hosting platform for version control and collaboration. It lets      one and others work together on projects from anywhere
+    Note: 
+        GitHub is a code hosting platform for version control and collaboration. 
+        It lets one and others work together on projects from anywhere
 
 
 (7) Git ::
+
     Setting up Git
+
         1) To use Git on the command line, download and install Git for Windows
             URL: 'https://git-scm.com/download/win'
+
         2) Check git version using command prompt, run 'git --version'
         output: git version 2.16.2.windows.1 
     
@@ -161,7 +183,8 @@ Cucumber-js :: (cucumber for javaScript)
     4) a Hook File : 'hooks.js'
         Hooks are used for setup and teardown the environment before and after each scenario.
     Note: 
-    cucumber-js automatically looks in, and expects content to be inside a features/ directory, so we don’t actually have to configure anything, just use this structure.
+    cucumber-js automatically looks in, and expects content to be inside a features/ directory, 
+    so we don’t actually have to configure anything, just use this structure.
 
 Chai :: 
     BDD assertion framework for node.js and the browser that can be paired with Cucumber-js testing framework.
