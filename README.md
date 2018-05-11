@@ -124,7 +124,8 @@ Prerequisites for Test Automation::
             1. SQAT06
             2. .git
 
-        4) Click on 'Fork' button in the github web browser gui of the 'IzzatBamieh/SQAT06' It creates an exact copy of 'IzzatBamieh/SQAT06' onto my 'ktsiddiqua/SQAT06' repository
+        4) Click on 'Fork' button in the github web browser gui of the 'IzzatBamieh/SQAT06' It creates an exact copy of 
+        'IzzatBamieh/SQAT06' onto my 'ktsiddiqua/SQAT06' repository
 
         6) Use command line, run  'cd sqat06' to go to SQAT06 folder
         Check the directory folder to ensure all files are copied from origin repository- command as 'dir'
@@ -169,7 +170,9 @@ To work with this scenario I use ::
 
 Cucumber-js :: (cucumber for javaScript)
    
-    Cucumber is a testing framwork, helps with writing tests (scenario as acceptance criteria) in BDD (Behavior Driven Development) using Gherkin syntax (Feature, Scenario, Given, When, Then, so on) and then writing tests according to it. For cucumber required is 'features' directory - it includes 4 types of files-
+    Cucumber is a testing framwork, helps with writing tests (scenario as acceptance criteria) in BDD (Behavior Driven Development) 
+    using Gherkin syntax (Feature, Scenario, Given, When, Then, so on) and then writing tests according to it. 
+    For cucumber required is 'features' directory - it includes 4 types of files-
     
     1) a Feature file : 'sign_scenario.feature' extention File
          Cucumber reads the code written in plain English text (Gherkin language) in the feature file
